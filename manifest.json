@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "TBD",
-  "description": "TBD",
+  "name": "UnBlur Quora",
+  "description": "Read unlimited Quora answers without signing up.",
   "version": "1.0",
   "browser_action": {
     "default_icon": "icons/icon.png",
