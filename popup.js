@@ -32,4 +32,3 @@ document.addEventListener(
 
 // TODO:
 // - Modularize code
-// - Create icons
