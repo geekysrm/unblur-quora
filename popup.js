@@ -30,4 +30,6 @@ document.addEventListener(
   false
 );
 
-// TODO: Make it pretty
+// TODO:
+// - Modularize code
+// - Create icons

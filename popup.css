@@ -1,7 +1,57 @@
+html {
+  background: #eeeeee;
+}
+
 .container {
-  width: 300px;
+  width: 200px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#unblur {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #801b00;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#unblur:hover,
+#unblur:focus {
+  background: #a82400;
+}
+
+#unblur:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+#unblur:active {
+  transform: scale(0.99);
+}
+
+#unblur:disabled {
+  background: #b3afaf;
+}
+
+.heading {
+  font-size: 25px;
+  color: #001f3f;
+}
+
+.about {
+  margin-top: 7px;
+  text-align: right;
 }
