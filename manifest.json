@@ -12,5 +12,5 @@
     "default_icon": "icons/icon128.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["tabs", "*://quora.com/*"]
+  "permissions": ["activeTab"]
 }
