@@ -18,7 +18,7 @@ document.addEventListener(
                 // Removing last # if present:
                 if (currentURL.endsWith("#"))
                   currentURL = currentURL.slice(0, -1);
-                chrome.tabs.update(tabs.id, { url: currentURL + "?share=1" });
+                chrome.tabs.update(tabs[0].id, { url: currentURL + "?share=1" });
               } else unblurButton.innerHTML = "Unblurred";
             },
             false
