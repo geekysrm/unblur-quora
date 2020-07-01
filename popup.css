@@ -51,6 +51,16 @@ html {
   color: #001f3f;
 }
 
+.footer-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about a {
+  font-weight: 500;
+}
+
 .about {
   margin-top: 7px;
   text-align: right;
