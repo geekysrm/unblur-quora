@@ -1,5 +1,5 @@
-
-![UnBlur Quora](icons/icon128.png?raw=true)
+<p align="center"><img align="center" src="icons/icon128.png?raw=true" alt="UnBlur Quora"></p>
+<br>
 
 <p align="center">
     <a href="https://chrome.google.com/webstore/detail/unblur-quora/dbiilmhbpifcgcpikjfagempfijhfpgd"><img src="https://badgen.net/chrome-web-store/v/dbiilmhbpifcgcpikjfagempfijhfpgd" alt="Download from Chrome Webstore"></a>
