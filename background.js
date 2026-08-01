@@ -1,14 +1,14 @@
 var rule = {
   conditions: [
     new chrome.declarativeContent.PageStateMatcher({
-      pageUrl: { hostEquals: "www.quora.com", schemes: ["https"] }
-    })
+      pageUrl: { hostEquals: "www.quora.com", schemes: ["https"] },
+    }),
   ],
-  actions: [ new chrome.declarativeContent.ShowPageAction() ]
+  actions: [new chrome.declarativeContent.ShowAction()],
 };
 
-chrome.runtime.onInstalled.addListener(function(details) {
-  chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
+chrome.runtime.onInstalled.addListener(function (details) {
+  chrome.declarativeContent.onPageChanged.removeRules(undefined, function () {
     chrome.declarativeContent.onPageChanged.addRules([rule]);
   });
 });

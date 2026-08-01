@@ -1,6 +1,6 @@
 {
-  "manifest_version": 2,
-  "minimum_chrome_version": "35",
+  "manifest_version": 3,
+  "minimum_chrome_version": "88",
   "name": "UnBlur Quora",
   "description": "Read unlimited Quora answers without signing up.",
   "version": "2.0",
@@ -10,10 +10,9 @@
     "128": "icons/icon128.png"
   },
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "background.js"
   },
-  "page_action": {
+  "action": {
     "default_icon": "icons/icon128.png",
     "default_popup": "popup.html"
   },
